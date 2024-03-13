@@ -1,0 +1,43 @@
+
+body {
+    background-color: rgb(48, 143, 180);
+    font-family: sans-serif;
+    
+ }
+h1 {
+   margin-left: 110px;
+ }
+
+ .color_one {
+    width: 300px;
+    height: 100px;
+    background-color: #808080;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ }
+ 
+ .color_two {
+    width: 300px;
+    height: 100px;
+    background-color: #808080;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+ }
+
+ .color_three {
+    width: 300px;
+    height: 100px;
+    background-color: #808080;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+ }
+
+ 
+ button {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+   
+ }
