@@ -1,5 +1,5 @@
 let lamp = [{color: "red"}, {color: "yellow"}, {color: "green"}, {color: "blue"}];
-    let colorIndex = 0;
+       let colorIndex = 0;
 
     let colorsContainer = document.querySelector('.back_color');
 
@@ -19,6 +19,7 @@ let lamp = [{color: "red"}, {color: "yellow"}, {color: "green"}, {color: "blue"}
             }
         }
     }
+  
 
     switchColor();
 
@@ -31,3 +32,14 @@ let lamp = [{color: "red"}, {color: "yellow"}, {color: "green"}, {color: "blue"}
         colorIndex = (colorIndex - 1 + lamp.length) % lamp.length;
         switchColor();
     });
+
+
+let intervalId;
+
+function startAutomaticSwitch() {
+    intervalId = setInterval(function() {
+        colorIndex = (colorIndex + 1) % lamp.length;
+        switchColor();
+    }, 2000); 
+}
+startAutomaticSwitch();
