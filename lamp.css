@@ -50,3 +50,9 @@ h1 {
 	transform: scale(1.2);;
 
 }
+
+button {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px; 
+}
