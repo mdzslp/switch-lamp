@@ -36,10 +36,10 @@ let lamp = [{color: "red"}, {color: "yellow"}, {color: "green"}, {color: "blue"}
 
 let intervalId;
 
-function startAutomaticSwitch() {
+function automaticSwitch() {
     intervalId = setInterval(function() {
         colorIndex = (colorIndex + 1) % lamp.length;
         switchColor();
     }, 2000); 
 }
-startAutomaticSwitch();
+automaticSwitch()();
